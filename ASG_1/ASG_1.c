@@ -11,7 +11,7 @@ int main()
     while(x!=0)
     {
         printf("\n\t--------------------\n");
-        printf("\n\tEnter The Number = ");
+        printf("\n\tEnter The Number [0 to stop] = ");
         scanf("%d",&x);
         cond= (((x/2)*2)==x)?true:false;
         printf("\n\tThe Number is odd = %d \n\tThe Number is Even= %d\n",!cond,cond);
