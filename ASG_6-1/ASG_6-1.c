@@ -33,8 +33,6 @@ int main()
         "Mostafa",17,100,4
     }
     };
-    int size=sizeof(students)/sizeof(students[0]);
-
     print(students);
 }
 
