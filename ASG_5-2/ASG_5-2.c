@@ -10,7 +10,7 @@ int main()
         scanf("%d", arr_1 + i);
     }
 
-    printf("\nThe Array Elemnts Before Reverse Is : \t");
+    printf("\nThe Original Array Is : \t");
     for (int i = 0; i < size; i++)
     {
         printf("%d\t", arr_1[i]);
@@ -23,7 +23,7 @@ int main()
         arr_1[i] = arr_1[i] - arr_1[size - (i + 1)];
     }
 
-    printf("\nThe Array Elemnts After Reverse Is : \t");
+    printf("\nThe Reversed Array Is : \t");
     for (int i = 0; i < size; i++)
     {
         printf("%d\t", arr_1[i]);
